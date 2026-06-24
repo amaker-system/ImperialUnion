@@ -375,6 +375,23 @@
 		"requiredResource": "Oil",
 		"promotions": ["Evasion", "Siege I"],
 		"attackSound": "bombing"
+    },
+	{
+		"name": "Orbital Beam",
+		"unitType": "Bomber",
+		"uniqueTo": "Upside-Down",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 700,
+		"range": 100,
+		"cost": 375,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Triggers a global alert upon completion",
+			"[1] additional attacks per turn",
+			"Nuclear weapon of Strength [7]",
+			"Blast radius [5]",
+			"Can move after attacking"],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Taerg Raw Yrtnafni",
